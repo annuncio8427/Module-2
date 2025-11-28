@@ -27,7 +27,7 @@ To write a Python program that generates **Pascal's Triangle** using numbers. Th
 ---
 
 ## 🧪 Program
-
+```python
 def fact(n):
     if n == 0:
         return 1
@@ -41,16 +41,16 @@ for i in range(rows):
         val = fact(i) // (fact(j) * fact(i - j))
         print(val, end=" ")
     print()
-
+```
 
 ## Sample Output
-
+```python
 Enter number of rows: 5
       1 
      1 1 
     1 2 1 
    1 3 3 1 
   1 4 6 4 1
-
+```
 ## Result
 Thus, the Python program successfully generates Pascal's Triangle using loops and factorial-based binomial coefficient calculation.
